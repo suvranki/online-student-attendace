@@ -1,0 +1,28 @@
+.attendance-form {
+  background-color: #f3e5f5;
+  padding: 20px;
+  border-radius: 12px;
+  margin: 20px auto;
+  width: 500px;
+}
+
+.student-attendance-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.student-attendance-row select {
+  padding: 6px;
+  border-radius: 6px;
+}
+
+.student-attendance-row button {
+  background-color: #8e24aa;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+}
+

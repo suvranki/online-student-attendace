@@ -1,0 +1,64 @@
+.attendance-container {
+  padding: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafc;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.attendance-container h2 {
+  text-align: center;
+  color: #333;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: #4a90e2;
+  color: white;
+  padding: 12px;
+  border: none;
+  font-size: 16px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f7ff;
+}
+
+.status-present {
+  color: white;
+  background-color: #4caf50;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.status-absent {
+  color: white;
+  background-color: #e53935;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.badge {
+  background-color: gold;
+  color: black;
+  padding: 3px 8px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 5px;
+}
